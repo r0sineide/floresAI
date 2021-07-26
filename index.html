@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<html >
+<head >
+    <meta  charset = ' utf-8 ' >
+    <meta  http-equiv = ' Compatível com X-UA ' content = ' IE = edge ' >
+    <title> Plantas </title >
+    <meta  name = ' viewport ' content = ' width = device-width, initial-scale = 1 ' >
+    <link  rel = ' stylesheet ' type = ' text / css ' media = ' screen ' href = ' main.css ' >
+    <Vínculo  rel = " stylesheet " href =" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " integridade =" SHA384-ggOyR0iXCbMQv3Xipma34MD + DH / 1fQ784 / j6cY / iJTQUOhcWr7x9JvoRxT2MZw1T " crossorigin = " anônimo " >
+</head>
+<body>
+    <div  class = " container " style = " text-align: center; " >
+      <header  class = " jumbotron " style = " background-color: #f3bda6; color: #04a172; " >
+        <h1> Sistema de Predição de tipos de Plantas </h1 >
+         <p> Suculentas, Orquideas, Rosas do Desertos e Rosas </p>
+        </header>
+          <div class ="flor1" style = " padding: 10px 50px; font-size: 18px; text-align: justify; background-color:#f3bda6; color: #04a172;" >
+     <h2> Suculentas </h2>   
+          <p>
+         suculentas - As plantas suculentas são aquelas que possuem raiz, o talo ou as folhas
+        engrossados para permitir o armazenamento de água em quantidades muito maiores que 
+        nas plantas normais. Esta adaptação lhes permite manter reservas do líquido durante 
+        períodos prolongados, e sobreviver em ambientes áridos e secos que para as outras 
+        plantas seriam inabitáveis.
+         </p>
+  
+    <h2> Orquideas </h2> 
+         <p>
+         Orquídeas são todas as plantas que compõem a família Orchidaceae, pertencente à 
+         ordem Asparagales, uma das maiores famílias de plantas existentes. Apresentam muitíssimas
+         e variadas formas, cores e tamanhos e existem em todos os continentes, exceto na Antártida,
+        predominando nas áreas tropicais. Não são plantas parasitas, nutrindo-se apenas de material
+        em decomposição que cai das árvores e acumula-se ao emaranhar-se em suas raízes.
+        </p>
+     
+    <h2> Rosa do deserto </h2> 
+        <p>
+        A Rosa do deserto tem plantios semelhantes aos cactos e como o próprio nome sugere se adapta 
+        muito bem a exposições a climas de baixa umidade. Numerosos híbridos foram desenvolvidos, 
+        são plantas apreciadas por suas flores coloridas e cáudices grossos e incomuns.
+        </p>
+      
+    <h2> Rosas </h2> 
+        <p>
+    A rosa é uma das flores mais populares no mundo. Vem sendo cultivada pelo homem desde a Antiguidade.
+    Na sua forma selvagem, a flor é ainda mais antiga.
+        </p> 
+    </div>
+        <button type="button" class="btn ntn-primary" onclick="init()"> Iniciar Reconhecimento</button>
+        <div id="webcam-container"></div>
+        <div class="display-4" id="label-container"></div>
+
+    <footer  class = " panel-footer " style = " text-align: center; background-color: #f3bda6; color: #04a172;" > 
+            Todos direitos reservados - Departamento de Licenciatura em Computação - IFSULDEMINAS - Campus Machado
+    </rodapé>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script  src = ' tensor.js ' > </script>    
+</body>
+</html> 
